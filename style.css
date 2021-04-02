@@ -46,7 +46,20 @@ button{
     justify-content: space-around;
 }
 html, body{
-    background-image: linear-gradient(to right, black, darkblue);
     margin: 0;
     padding: 0;
+}
+/* img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+} */
+.dung{
+    display: flex;
+    justify-content: center;
+}
+canvas{
+    border: dashed;
+}
+a:link{
+    color: yellow;
 }
